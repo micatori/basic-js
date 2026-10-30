@@ -1,4 +1,4 @@
-const { NotImplementedError } = require('../extensions/index.js');
+﻿const { NotImplementedError } = require('../lib/index.js');
 
 /**
  * Implement class DepthCalculator with method calculateDepth
@@ -27,6 +27,9 @@ class DepthCalculator {
   }
 }
 
+const depthCalculator = new DepthCalculator();
+
 module.exports = {
-  DepthCalculator
+  DepthCalculator,
+  depthCalculator
 };

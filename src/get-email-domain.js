@@ -1,4 +1,4 @@
-const { NotImplementedError } = require('../extensions/index.js');
+﻿const { NotImplementedError } = require('../lib/index.js');
 
 /**
  * Given an email address, return it's domain.
