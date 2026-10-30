@@ -1,4 +1,4 @@
-﻿const { NotImplementedError } = require('../lib/index.js');
+﻿// const { NotImplementedError } = require('../lib/index.js');
 
 /**
  * Implement class DepthCalculator with method calculateDepth
